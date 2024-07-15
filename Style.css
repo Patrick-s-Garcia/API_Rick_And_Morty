@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .iconerick {
+    width: 70px;
+    margin-top: 15px;
+    margin-left: 5px;
+    animation: rickRoda 2s;
+  }
+  .headertop {
+    height: 300px;
+  }
+  
+  #titulo-api {
+    font-size: 5rem;
+    color: #105718;
+    font-weight: 800;
+    animation: desliza 1s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+  }
+  .background-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./IMGs_Projeto/FUNDO_2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 600px;
+    padding-top: 30px;
+  }
+  
+  .btn_paginacao {
+    height: 100px;
+    animation: paginacao 2s ease-in-out;
+  }
+  
+  .container-cards {
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .character-card {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    flex-basis: calc(30%);
+  }
+  
+  .Alive {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    background: rgb(85, 204, 68);
+    border-radius: 50%;
+  }
+  
+  .Dead {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    background: rgb(214, 61, 46);
+    border-radius: 50%;
+  }
+  
+  .unknown {
+    height: 12px;
+    width: 12px;
+    margin-right: 5px;
+    background: rgb(158, 158, 158);
+    border-radius: 50%;
+  }
+  
+  footer {
+    background-color: rgb(19, 18, 18);
+    height: 400px;
+  }
+  
+  .card {
+    width: 25rem;
+  }
+  .cardResults {
+    width: 15rem;
+    margin: 20px;
+  }
+  
+  .namehover:hover {
+    color: #ff9800;
+  }
+  .namehover {
+    cursor: pointer;
+  }
+  .card-title {
+    color: white;
+  }
+  
+  #charactersnumber,
+  #episodesnumber,
+  #locationnumber,
+  #developer {
+    font-size: 1.5rem;
+    color: #4d9f4b;
+    font-weight: bold;
+  }
+  .developer {
+    margin-top: 150px;
+  }
+  .fontwhite {
+    color: white;
+  }
+  
+  .namehovermodal:hover {
+    color: #ff9800;
+  }
+  .fontmodal {
+    color: white;
+  }
+  .colormodal {
+    background-color: #2b3035;
+  }
+  
+  .searchResults {
+    display: flex;
+    justify-content: center;
+  }
+  
+  @keyframes paginacao {
+    0% {
+      opacity: 0;
+      transform: translateX(-400px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  @keyframes rickRoda {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes desliza {
+    0% {
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  

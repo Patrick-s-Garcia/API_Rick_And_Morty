@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detalhes do Personagem</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./detalhes.css" />
+    <link rel="icon" href="./IMGs_Projeto/RICK_MORTY_ICON-01.svg" type="image/x-icon" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <img class="iconerick" src="./IMGs_Projeto/RICK_MORTY_ICON.png" alt="icone rick morty" />
+            </div>
+        </div>
+        <div class="row text-center mt-5 mb-3">
+            <div class="col">
+                <h1 id="titulo-api">Detalhes do Personagem</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-12 col-md-6">
+                <div id="character-details" class="card bg-transparent border border-success">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-5">
+            <div class="col-12 text-center">
+                <button onclick="window.location.href='index.html'" class="btn btn-outline-success mt-3">Voltar</button>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid mt-5">
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./detalhes.js"></script>
+</body>
+</html>
